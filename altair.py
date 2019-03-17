@@ -42,8 +42,11 @@ def csv2array( csv ):
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-print "\n BORNEO CYBER - FLAZER 404 \n" + \
-	 
+print "\n --------------------------------------------------------\n" + \
+	  "|    Altair 1.0 - A Modular Web Vulnerability Scanner    |\n" + \
+	  "| Copyleft by Simone Margaritelli <evilsocket@gmail.com> |\n" + \
+	  "|   http://www.evilsocket.net - http://www.backbox.org   |\n" + \
+	  " --------------------------------------------------------\n"
 
 parser = OptionParser( usage = "usage: %prog [options] -u <target>\n\n" +
                                "EXAMPLES:\n" +
